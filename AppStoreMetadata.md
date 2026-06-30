@@ -59,13 +59,13 @@ Evdeki eşyalarını kaydet, nerede olduklarını bul, garantilerini kaçırma. 
 ## Destek URL (Support URL)
 GitHub Pages ile yayınlandığında:
 ```
-https://harunkubur.github.io/ev-envanteri/destek.html
+https://harunkubur-coder.github.io/ev-envanteri/destek.html
 ```
 
 ## Gizlilik politikası URL (Privacy Policy URL) — ZORUNLU
 App Store Connect bu alanı zorunlu tutar. `docs/gizlilik.html` dosyası hazır. GitHub Pages'e yükledikten sonra:
 ```
-https://harunkubur.github.io/ev-envanteri/gizlilik.html
+https://harunkubur-coder.github.io/ev-envanteri/gizlilik.html
 ```
 
 Uygulama içinde de aynı metin Ayarlar → Gizlilik Politikası'nda mevcuttur.
