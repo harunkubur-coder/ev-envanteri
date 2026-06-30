@@ -77,6 +77,49 @@ EvEnvanter/
     └── ItemDetailView.swift
 ```
 
+## GitHub & App Store sayfaları
+
+Gizlilik politikası ve destek sayfaları `docs/` klasöründe. GitHub Pages ile ücretsiz yayınlanır.
+
+### Repoyu GitHub'a yükle
+
+Terminalde sırayla:
+
+```bash
+cd /Users/harunkubur/Desktop/saas/EvEnvanter
+
+# GitHub'a giriş (tarayıcı açılır, bir kez yapılır)
+gh auth login
+
+# Repo oluştur ve push et
+gh repo create ev-envanteri --public --source=. --remote=origin --push
+```
+
+`gh` yoksa: [github.com/new](https://github.com/new) → repo adı **ev-envanteri** → boş repo oluştur, sonra:
+
+```bash
+git remote add origin https://github.com/KULLANICI_ADIN/ev-envanteri.git
+git push -u origin main
+```
+
+### GitHub Pages'i aç
+
+1. GitHub'da repo → **Settings → Pages**
+2. **Build and deployment → Branch:** `main`
+3. **Folder:** `/docs` → **Save**
+4. 1–2 dk bekle
+
+### App Store Connect URL'leri
+
+| Alan | URL |
+|------|-----|
+| Gizlilik Politikası | `https://KULLANICI_ADIN.github.io/ev-envanteri/gizlilik.html` |
+| Destek | `https://KULLANICI_ADIN.github.io/ev-envanteri/destek.html` |
+
+`KULLANICI_ADIN` yerine GitHub kullanıcı adını yaz (ör. `harunkubur`).
+
+---
+
 ## Sonraki adımlar (isteğe bağlı)
 
 - [ ] iCloud sync
